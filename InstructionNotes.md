@@ -47,6 +47,7 @@ export function SortableItem({id, item, onDelete}) {
         </li>
     );
 }
+
 Update App.js:
 jsx
 Copy code
@@ -118,9 +119,9 @@ function App() {
 }
 
 export default App;
+
 Update App.css for some basic styling (you can always enhance it):
-css
-Copy code
+
 .App {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
@@ -134,6 +135,7 @@ Copy code
     list-style: none;
     padding: 0;
 }
+
 Ensure index.js correctly imports the App component:
 jsx
 Copy code
@@ -148,6 +150,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
 Run the App:
 bash
 Copy code

@@ -1,11 +1,14 @@
- let's use an alternative library for drag-and-drop functionality called @dnd-kit/core and @dnd-kit/sortable.
+Let's use an alternative library for drag-and-drop functionality called @dnd-kit/core and @dnd-kit/sortable.
 
 Firstly, install the necessary packages:
 
+bash
+Copy code
 npm install @dnd-kit/core @dnd-kit/sortable
 Now, I'll provide an updated App.js using the @dnd-kit library:
 
-
+jsx
+Copy code
 import React, { useState } from 'react';
 import { DndContext, closestCenter, PointerSensor, useSensor, useSensors } from '@dnd-kit/core';
 import { arrayMove, SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable';

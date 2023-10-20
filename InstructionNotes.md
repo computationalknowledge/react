@@ -1,3 +1,5 @@
+**Version with updated dnd-kit core library to manage the drag reordering
+
 Let's use an alternative library for drag-and-drop functionality called @dnd-kit/core and @dnd-kit/sortable.
 
 Firstly, install the necessary packages:
